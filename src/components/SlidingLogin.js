@@ -144,7 +144,7 @@
             {/* Formulario de Login */}
             <div className="form-container sign-in-container">
             <form onSubmit={handleSignIn}>
-                <h1>Iniciar Sesión</h1>
+                <h1>Inicia Sesión a Prolife</h1>
                 
                 <input 
                 type="email" 
@@ -162,7 +162,7 @@
                 required
                 />
                 
-                <a href="#">¿Olvidaste tu contraseña?</a>
+                <a href="#"></a>
                 
                 {loginError && <div className="error-message">{loginError}</div>}
                 
@@ -183,8 +183,8 @@
                 </button>
                 </div>
                 <div className="overlay-panel overlay-right">
-                <h1>¡Hola, Amigo!</h1>
-                <p>Ingresa tus datos personales y comienza tu viaje con nosotros</p>
+                <h1>¡Hola, Estimado!</h1>
+                <p>Ingresa tus datos personales y comienza tu viaje con nosotros en Prolife</p>
                 <button className="ghost" onClick={() => setIsRightPanelActive(true)} id="signUp">
                     Registrarse
                 </button>

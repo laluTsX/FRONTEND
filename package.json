@@ -4,6 +4,7 @@
     "homepage": "https://prolife.alwaysdata.net",
     "dependencies": {
         "@fortawesome/fontawesome-free": "^7.2.0",
+        "@mediapipe/face_mesh": "^0.4.1633559619",
         "axios": "^1.4.0",
         "mdb-react-ui-kit": "^10.0.0",
         "react": "^18.2.0",
